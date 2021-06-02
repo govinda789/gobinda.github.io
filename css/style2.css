@@ -1,0 +1,112 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.header-side{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(57deg,#00c6a7,#1e4d92);
+	clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 100%);
+	}
+nav{
+	width: 100%;height: 100px;color:white;
+	display: flex;
+}
+nav ul li:hover{
+	background:lightgray;
+	transition: all ease-in-out 0.05s;
+	padding: 20px 2px;
+}
+
+
+.logo{width:50%;height: 100px;background: red;}
+.logo h1{
+	line-height: 100px; padding-left: 50px;font-size: 44px;
+	font-family: 'Dancing Script', cursive; 
+}
+.menu{ width: 50%;height: 100px;background: lime;
+     color: white; }
+.menu ul{
+	width: 100%;height: 100px; display: flex;
+	flex-basis: row;justify-content: space-around;
+	align-items: center;color: white;
+}
+
+.menu ul li{
+	list-style: none;font-size: 21px;
+	font-weight: bold;text-transform: uppercase;
+
+}
+.menu ul li a{
+text-decoration: none;
+}
+
+section{
+	display: flex;
+}
+.left-side{
+	height: auto;
+	width: 40%
+	overflow:hidden;
+margin-top: 20px;
+}
+.left-side img{
+	width: 550px;
+	height: 450px;
+}
+
+
+
+
+.center-side{
+	width: 70%;height: 300px;margin-top: 80px;
+	color: white;font-size: 20px;
+	text-align: center;
+}
+.center-side h1{
+	font-size: 60px;
+	font-weight: bold;text-transform: uppercase;
+}
+.center-side p{
+	font-size: 1.1rem;padding: 30px 0;
+}
+.center-side button{
+	font-weight: bold;color: white;background: red;
+	text-transform: uppercase;border-radius: 4px;
+	padding: 10px 25px;
+}
+.center-side button:hover{
+background: darkred;
+}
+.forms{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+.fn{
+font-size: 30px;
+}
+.ln{
+font-size: 30px;
+}
+.sub{
+	font-size: 30px;
+	color: white;
+	background-color: red;
+}
+.sub:hover{
+	background-color:darkred;
+}
+
+.asd{
+	background-color: gray;}
+	.school{
+	font-weight: bold;
+	font-size: 30px;
+	padding-left: 300px;
+	
+	}
+
+.home-click{
+	color: red;
+	background: lightgray;
+	padding: 20px 2px;
+	transition: all ease-in-out 0.05s;
+}
